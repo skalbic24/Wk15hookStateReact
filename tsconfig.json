@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "incremental": true, // or "composite": true
+    "tsBuildInfoFile": "./path/to/your/tsBuildInfoFile",
+    "target": "es2020" // Change this to your desired JavaScript version
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
