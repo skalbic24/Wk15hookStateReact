@@ -24,6 +24,7 @@ It’s using at least 1 prop
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App'; // Ensure this path is correct
+import './index.css'; // Adjust the path if necessary
 
 const rootElement = document.getElementById('root');
 
