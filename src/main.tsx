@@ -21,15 +21,17 @@ It’s displaying the test data
 It’s using at least 1 prop
 
 */
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App'; // Ensure this path is correct
 
-import React from 'react'; 
-import { StrictMode } from 'react'; 
-import App from './App'; 
+const rootElement = document.getElementById('root');
 
-const Main = () => (
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
-
-export default Main;
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <App /> {/* Render your App component here */}
+    </React.StrictMode>
+  );
+}
