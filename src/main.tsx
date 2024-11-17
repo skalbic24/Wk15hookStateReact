@@ -23,8 +23,8 @@ It’s using at least 1 prop
 */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // Ensure this path is correct
-import './index.css'; // Adjust the path if necessary
+import App from './App'; 
+import './index.css'; 
 
 const rootElement = document.getElementById('root');
 
@@ -32,7 +32,7 @@ if (rootElement) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <React.StrictMode>
-      <App /> {/* Render your App component here */}
+      <App /> 
     </React.StrictMode>
   );
 }
