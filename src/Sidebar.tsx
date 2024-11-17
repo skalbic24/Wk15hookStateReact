@@ -20,7 +20,7 @@ const Sidebar: React.FC<SidebarProps> = ({ saveLaterTasks, onDelete, onEdit }) =
                     <li key={task.id} className="task-item">
                         <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
                             <span role="img" aria-label="task" style={{ marginRight: '8px', lineHeight: '30px' }}>
-                                📅 {/* Emoji here */}
+                                📅 
                             </span>
                             <span style={{ flexGrow: 1 }}>{task.task}</span>
                             <div style={{ display: 'flex', alignItems: 'center' }}>
